@@ -20,6 +20,7 @@ if [ os.environ CI ]
 
 project
     : requirements
+        <library>/boost/fusion//boost_fusion
         $(CI_DEFINES)
     ;
 
